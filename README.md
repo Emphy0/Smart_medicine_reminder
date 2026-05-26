@@ -3,21 +3,19 @@
 > A dual-mode (automatic/manual) medication dispenser built with ESP32, DS3231 RTC, and 8 servo motors.  
 > Status: ✅ Project completed – fully functional prototype presented at ideathon exhibition.
 
-![Prototype](Images/prototype_photo.jpg)   <!-- Add your image path here -->
-
----
+![Prototype](Images/prototype_photo2.jpeg) 
 
 📌 Overview
 This system helps patients take their medication on time by either **automatically dispensing** pills at preset schedules or allowing **manual on-demand dispensing** via a 5‑button interface. The rotating 6‑compartment tower holds up to 24 tablets, and all feedback is shown on the Arduino IDE Serial Monitor.
 
 ✨ Key Features
-- Dual-mode operation** – Automatic (RTC scheduled) + Manual (push‑button control)
-- High accuracy** – 99.2% dispensing reliability over 100+ cycles
-- Precise timing** – DS3231 RTC with ±1.2 min/month drift and battery backup
-- 8 servo motors** – 6 for compartments, 1 for tower rotation, 1 for gate
-- 5 tactile buttons** – Settings, Select, Up, Down, Exit
-- Audible feedback** – Buzzer for dispensing confirmation
-- Wokwi simulation** – Test the logic online without hardware
+- Dual-mode operation – Automatic (RTC scheduled) + Manual (push‑button control)
+- High accuracy – 99.2% dispensing reliability over 100+ cycles
+- Precise timing – DS3231 RTC with ±1.2 min/month drift and battery backup
+- 8 servo motors – 6 for compartments, 1 for tower rotation, 1 for gate
+- 5 tactile buttons – Settings, Select, Up, Down, Exit
+- Audible feedback – Buzzer for dispensing confirmation
+- Wokwi simulation – Test the logic online without hardware
 
 🛠️ Hardware Components
 | Component | Quantity | Purpose |
@@ -50,25 +48,23 @@ This system helps patients take their medication on time by either **automatical
 | Exit Button | GPIO 19 |
 | Buzzer | GPIO 23 |
 
-> Full circuit diagram is available in the [`/Hardware`](Hardware/) folder.
-
 ## 📂 Repository Structure
 Smart_medicine_reminder/
-├── Software/
-│ └── SmartMedicineReminder.ino # Main Arduino code
-├── Hardware/
-│ └── circuit_simulation.png # Schematic
-| └── Blockdiagram.jpeg # Block Diagram
 ├── Documentation/
 │ ├── Report.pdf # Final project report
 │ └── Presentation.pptx # Exhibition slides
+├── Hardware/
+│ └── circuit_simulation.png # Schematic
+| └── Blockdiagram.jpeg # Block Diagram
 ├── Images/
 │ └── prototype_photos.jpg # Photo of working prototype
+├── Software/
+│ └── SmartMedicineReminder.ino # Main Arduino code
 └── README.md # This file
 
 
 ## 🚀 How to Run (Hardware)
-1. **Clone this repository**  
+1. Clone this repository  
    ```bash
    git clone https://github.com/Emphy0/Smart_medicine_reminder.git
 2. Install required libraries in Arduino IDE:
@@ -82,16 +78,16 @@ Smart_medicine_reminder/
 
 🖥️ Wokwi Simulation (No hardware needed)
 Click the badge below to run the complete simulation online:
-https://img.shields.io/badge/Simulation-Wokwi-green
+[https://img.shields.io/badge/Simulation-Wokwi-green](https://wokwi.com/projects/444989827986771969)
 Note: The simulation uses the same logic but replaces physical servos with virtual ones.
 
 📊 Performance Results
 Metric	                        Achieved	                Target
 Dispensing cycle time       	 3.8 seconds            	< 4 seconds
-Dispensing accuracy             	99.2%                  	> 99%
+Dispensing accuracy             	99.2%                  	 > 99%
 Servo positioning error         	±1.5°                   	±2°
-RTC timekeeping drift       	±1.2 min/month	        ±2 min/month
-Idle power consumption        	  85 mA                	< 100 mA
+RTC timekeeping drift       	±1.2 min/month	          ±2 min/month
+Idle power consumption           85 mA                	< 100 mA
 
 👥 Authors
 Prajwal M – @Emphy0
@@ -99,6 +95,6 @@ Nithin S
 Keerthana K
 Prema S
 
-This project was developed as part of the curriculum.
+This was a mini project developed as part of the curriculum.
 
 
