@@ -76,18 +76,21 @@ Click the badge below to run the complete simulation online:
 
 Note: The simulation uses the same logic but replaces physical servos with virtual ones.
 
-📊 Performance Results
-Metric	                        Achieved	                Target
-Dispensing cycle time       	 3.8 seconds            	< 4 seconds
-Dispensing accuracy             	99.2%                  	 > 99%
-Servo positioning error         	±1.5°                   	±2°
-RTC timekeeping drift       	±1.2 min/month	          ±2 min/month
-Idle power consumption           85 mA                	< 100 mA
+## 📊 Performance Metrics
+| Parameter | Achieved Value | Target Value | Status |
+|-----------|---------------|--------------|--------|
+| Dispensing cycle time | 3.8 seconds | < 4 seconds | Achieved |
+| Servo positioning accuracy | ±1.5° | ±2° | Exceeded |
+| Tablet dispensing reliability | 99.2% | > 99% | Achieved |
+| Button response time | 45 ms | < 50 ms | Achieved |
+| RTC timekeeping accuracy | ±1.2 min/month | ±2 min/month | Exceeded |
+| Idle power consumption | 85 mA | < 100 mA | Exceeded |
+
 
 👥 Authors
-Prajwal M – @Emphy0
-Nithin S
-Keerthana K
+Prajwal M,
+Nithin S,
+Keerthana K,
 Prema S
 
 This was a mini project developed as part of the curriculum.
