@@ -48,19 +48,13 @@ This system helps patients take their medication on time by either **automatical
 | Exit Button | GPIO 19 |
 | Buzzer | GPIO 23 |
 
-## 📂 Repository Structure
-Smart_medicine_reminder/
-├── Documentation/
-│ ├── Report.pdf # Final project report
-│ └── Presentation.pptx # Exhibition slides
-├── Hardware/
-│ └── circuit_simulation.png # Schematic
-| └── Blockdiagram.jpeg # Block Diagram
-├── Images/
-│ └── prototype_photos.jpg # Photo of working prototype
-├── Software/
-│ └── SmartMedicineReminder.ino # Main Arduino code
-└── README.md # This file
+
+Repository Structure:
+Documentation/ – Holds final project report PDF and exhibition presentation slides
+Hardware/ – Includes circuit diagram image showing all ESP32 pin connections
+Images/ – Contains prototype photos including full system assembly and dispensing mechanism close-ups
+Software/ – Contains main Arduino code file SmartPillDispenser.ino
+README.md – Main documentation page at root level
 
 
 ## 🚀 How to Run (Hardware)
@@ -79,6 +73,7 @@ Smart_medicine_reminder/
 🖥️ Wokwi Simulation (No hardware needed)
 Click the badge below to run the complete simulation online:
 [https://img.shields.io/badge/Simulation-Wokwi-green](https://wokwi.com/projects/444989827986771969)
+
 Note: The simulation uses the same logic but replaces physical servos with virtual ones.
 
 📊 Performance Results
